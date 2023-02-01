@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style module>
+    *{
+      list-style: none;
+    }
+    .one{
+      font-size: 30px;
+    }
+    /* .box[data-hjk-l] li[data-li-3]{
+      font-size: 50px;
+    } */
+    .box[data-hjk-k]{
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="one">
+  <ul data-hjk-l class="box">
+  1
+    <li data-li-1>
+     2
+      <ul data-hjk-j class="box">
+        3
+        <li >
+          4
+          <ul data-hjk-k2 class="box">
+            5
+            <li data-li-3>
+              6
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <ul data-hjk-k class="box">
+    1
+      <li data-li-1>
+       2
+        <ul data-hjk-j class="box">
+          3
+          <li >
+            4
+            <ul data-hjk-k class="box">
+              5
+              <li data-li-3>
+                6
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </li>
+  </ul>
+  </div>
+</body>
+</html>
